@@ -1,5 +1,6 @@
-public class helloWorld{
-     public static void main (String args[]){
-         System.out.println("Alô, Mundo");
-     }
- }
+import javax.swing.JOptionPane;
+class First{
+    public static void main (String args []){
+        JOptionPane.showMessageDialog(null,"Alô, mundo");
+    }
+}
